@@ -1,5 +1,12 @@
 const heapsort = (arr) => {
   /* Your code here */
+  const newHeap = [];
+
+  const heap = new Heap ()
+
+  for (let i = 0; i < arr.length; i++) {
+    heap.insert(arr[i]);
+  }
   
 };
 
